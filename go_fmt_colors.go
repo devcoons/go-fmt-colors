@@ -39,13 +39,16 @@ const (
 	FmtFgBgWhiteBlack   string = FmtFgWhite + FmtBgBlack
 	FmtFgBgWhiteBlue    string = FmtFgWhite + FmtBgBlue
 	FmtFgBgWhiteRed     string = FmtFgWhite + FmtBgRed
+	FmtFgBgWhiteGreen   string = FmtFgWhite + FmtBgGreen
 	FmtFgBgWhitePurple  string = FmtFgWhite + FmtFgPurple
 	FmtFgBgWhiteLBlue   string = FmtFgWhite + FmtBgLightBlue
 	FmtFgBgWhiteLRed    string = FmtFgWhite + FmtBgLightRed
+	FmtFgBgWhiteLGreen  string = FmtFgWhite + FmtBgLightGreen
 	FmtFgBgWhiteLPurple string = FmtFgWhite + FmtFgLightPurple
 	FmtFgBgBlackLBlue   string = FmtFgBlack + FmtBgLightBlue
 	FmtFgBgBlackLRed    string = FmtFgBlack + FmtBgLightRed
 	FmtFgBgBlackLPurple string = FmtFgBlack + FmtFgLightPurple
+	FmtFgBgBlackLGreen  string = FmtFgBlack + FmtBgLightGreen
 
 	FmtReset string = "\033[0m"
 )
